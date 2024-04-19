@@ -1,0 +1,31 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource>
+        <file>img/hitmo_title.png</file>
+        <file>img/next_pressed.png</file>
+        <file>img/next.png</file>
+        <file>img/pause.png</file>
+        <file>img/play.png</file>
+        <file>img/playlist_pressed.png</file>
+        <file>img/playlist.png</file>
+        <file>img/randomize_pressed.png</file>
+        <file>img/randomize.png</file>
+        <file>img/repeat_pressed.png</file>
+        <file>img/repeat.png</file>
+        <file>img/search.png</file>
+        <file>img/settings_pressed.png</file>
+        <file>img/settings_title.png</file>
+        <file>img/settings.png</file>
+        <file>img/track.png</file>
+        <file>img/up_pressed.png</file>
+        <file>img/up.png</file>
+        <file>img/app_icon.ico</file>
+
+        <file>style/main_window.qss</file>
+        <file>style/play_frame.qss</file>
+        <file>style/play_list_menu.qss</file>
+        <file>style/settings_menu.qss</file>
+        <file>style/side_menu.qss</file>
+        <file>style/track_info.qss</file>
+    </qresource>
+</RCC>

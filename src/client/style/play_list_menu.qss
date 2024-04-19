@@ -1,0 +1,97 @@
+QFrame#PlayListMenu,
+QFrame#ScrollFrame,
+QWidget#ScrollWidget,
+QScrollArea#ScrollArea{
+    background-color: rgb(45, 45, 45);
+    border-radius: 10px;
+}
+
+QScrollBar#ScrollBar{
+    border-radius: 3px;
+    background-color: rgb(60, 60, 60);
+}
+
+QScrollBar#ScrollBar::add-page,
+QScrollBar#ScrollBar::sub-page
+{
+    background-color: rgb(60, 60, 60);
+    border-radius: 3px;
+}
+
+QScrollBar#ScrollBar::add-line,
+QScrollBar#ScrollBar::sub-line{
+    max-height: 0px;
+    max-width: 0px;
+    border-radius: 3px;
+}
+
+QScrollBar#ScrollBar::handle{
+    background-color: rgb(80, 80, 80);
+    border-radius: 3px;
+}
+
+QLabel#TitleLabel{
+    padding: 10px;
+    color: white;
+    background-color: rgb(60, 60, 60);
+    border-radius: 15px;
+}
+
+QPushButton#ToSettingsButton{
+    background-color: rgb(80, 80, 80);
+    border-radius: 15px;
+    color: white;
+}
+
+QPushButton#ToSettingsButton::pressed{
+    background-color: rgb(70, 70, 70);
+    border-radius: 15px;
+    color: white;
+}
+
+QFrame#TrackFrame, QFrame#LabelSection{
+    background-color: rgb(70, 70, 70);
+    border-radius: 7px;
+}
+
+QFrame#LabelSection>QLabel{
+    color: rgb(200, 200, 200);
+}
+
+QFrame#TrackFrame::hover{
+    background-color: rgb(75, 75, 75);
+}
+
+QFrame#TrackFrame>QLabel{
+    color: white;
+}
+
+
+QFrame#TrackFrame>QLabel#InfoLabel{
+    color: rgb(200, 200, 200);
+}
+
+QFrame#TrackFrame>QLabel#PixmapLabel{
+    border-radius: 15px;
+}
+
+QFrame#SearchWidget{
+    background-color: rgb(70, 70, 70);
+    border-radius: 10px;
+}
+
+QFrame#SearchWidget>QLineEdit, QPushButton{
+    background-color: rgb(70, 70, 70);
+    border-radius: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+QFrame#SearchSettings{
+    background-color: rgb(75, 75, 75);
+    border-radius: 15px;
+    color: white;
+}
+
+QLabel{color: white;}
+

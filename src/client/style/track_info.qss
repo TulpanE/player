@@ -1,0 +1,8 @@
+QFrame#TrackInfo{
+	background-color: rgb(45, 45, 45);
+	border-radius: 10px;
+}
+
+QLabel#TrackName{
+	color: white;
+}

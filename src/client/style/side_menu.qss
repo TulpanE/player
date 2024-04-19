@@ -1,0 +1,9 @@
+QFrame#SideMenu{
+	background-color: rgb(45, 45, 45);
+	border-radius: 10px;
+}
+
+QPushButton{
+	background-color: rgb(45, 45, 45);
+	border-radius: 15px;
+}
